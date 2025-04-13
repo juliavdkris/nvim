@@ -9,30 +9,6 @@ return {
 		},
 	},
 	{
-		"folke/snacks.nvim",
-		optional = true,
-		opts = {
-			notifier = {
-				top_down = false,
-			},
-			picker = {
-				sources = {
-					explorer = {
-						layout = { layout = { position = "right" } },
-					},
-					keymaps = {
-						layout = {
-							preset = "vertical",
-							layout = {
-								width = 0.6,
-							},
-						},
-					},
-				},
-			},
-		},
-	},
-	{
 		"saghen/blink.cmp",
 		optional = true,
 		opts = {
@@ -49,19 +25,9 @@ return {
 		},
 	},
 	{
-		"theacodes/witchhazel",
-	},
-	{
 		"LazyVim/LazyVim",
 		opts = {
-			-- colorscheme = "witchhazel-hypercolor"
 			colorscheme = "catppuccin",
-		},
-	},
-	{
-		"akinsho/git-conflict.nvim",
-		opts = {
-			disable_diagnostics = true,
 		},
 	},
 }
