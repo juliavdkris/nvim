@@ -1,0 +1,19 @@
+{
+  "macros": [
+    {
+      "name": "Markdown question block",
+      "raw": "e28+gPwCIFshcXVlc3Rpb24bDw==",
+      "content": "{o><S-Space>[!question<Esc><C-O>"
+    },
+    {
+      "name": "Markdown note block",
+      "raw": "e28+gPwCIFshbm90ZRsP",
+      "content": "{o><S-Space>[!note<Esc><C-O>"
+    },
+    {
+      "name": "Markdown block",
+      "raw": "ST6A/AIgG2o=",
+      "content": "I><S-Space><Esc>j"
+    }
+  ]
+}
