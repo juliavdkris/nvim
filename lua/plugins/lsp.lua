@@ -26,7 +26,6 @@ return {
 		opts = {
 			ensure_installed = {
 				"bash-language-server",
-				"markdown-oxide",
 				"tinymist",
 			},
 		},
