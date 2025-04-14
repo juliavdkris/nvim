@@ -20,4 +20,15 @@ return {
 			},
 		},
 	},
+	{
+		"williamboman/mason.nvim",
+		optional = true,
+		opts = {
+			ensure_installed = {
+				"bash-language-server",
+				"markdown-oxide",
+				"tinymist",
+			},
+		},
+	},
 }
