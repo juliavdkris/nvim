@@ -18,13 +18,6 @@ return {
 		},
 	},
 	{
-		"nvim-lspconfig",
-		optional = true,
-		opts = {
-			inlay_hints = { enabled = false },
-		},
-	},
-	{
 		"LazyVim/LazyVim",
 		opts = {
 			colorscheme = "catppuccin",
