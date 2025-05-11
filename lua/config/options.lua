@@ -4,3 +4,12 @@
 vim.o.expandtab = false
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
+
+vim.g.neovide_fullscreen = true
+vim.g.neovide_scale_factor = 0.9
+
+if vim.g.neovide then
+	vim.keymap.set({ "n", "v" }, "<C-+>", ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor + 0.1<CR>")
+	vim.keymap.set({ "n", "v" }, "<C-->", ":lua vim.g.neovide_scale_factor = vim.g.neovide_scale_factor - 0.1<CR>")
+	vim.keymap.set({ "n", "v" }, "<C-0>", ":lua vim.g.neovide_scale_factor = 0.9<CR>")
+end
