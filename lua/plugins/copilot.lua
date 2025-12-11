@@ -23,7 +23,7 @@ return {
 			-- Check whether Copilot is installed
 			if pcall(require, "copilot") then
 				--- Workaround to keep track of state
-				vim.g.snacks_copilot_enabled = true
+				vim.g.snacks_copilot_enabled = false
 				snacks
 					.toggle({
 						name = "Copilot Completion",
@@ -45,6 +45,7 @@ return {
 						end,
 					})
 					:map("<leader>at")
+				require("copilot.command").disable()
 			end
 		end,
 	},
